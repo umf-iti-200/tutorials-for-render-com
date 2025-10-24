@@ -1,0 +1,6 @@
+postgresql://notebook_app_db_909f_user:iQ1TzqaQXdr0o3rOAIkv8iyUqv046QmW@dpg-d3told9r0fns73am1rf0-a.oregon-postgres.render.com/notebook_app_db_909f
+
+HOST:dpg-d3told9r0fns73am1rf0-a.oregon-postgres.render.com
+PASS: iQ1TzqaQXdr0o3rOAIkv8iyUqv046QmW
+USER: notebook_app_db_909f_user
+DATABASE: notebook_app_db_909f
