@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deploying a New Web Service | Tutorials for Render.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+
+<body class="container">
+
+    <h1>Deploying a New Web Service</h2>
+    <hr/>
+
+    <h2>Steps</h2>
+
+    <p><strong>Step 1</strong>: Click on "New" button at the navbar and than "Web Service"</p>
+
+    <img src="./assets/step-1.png" width="60%" height="50%" />
+
+    <p><strong>Step 2</strong>: Search for the project you would like to deply</p>
+
+    <img src="./assets/step-2.png" width="60%" height="50%" />
+
+    <p><strong>Step 3</strong>: Add "npm install" and "node server". Don't forget to select the "Free" tier</p>
+
+    <img src="./assets/step-3.png" width="60%" height="50%" />
+
+    <p><strong>Step 4</strong>: Open the database you have created <a href="../creating-a-postgres-database">here</a> and search for "Internal Database URL" and copy its content. Since both the app and the database are running in the "same" cloud, then it is a better practice to use the internal address, not the external one.</p>
+
+    <img src="./assets/step-4.png" width="60%" height="50%" />
+
+    <p><strong>Step 5</strong>: Create a new environmental variable called "DB_CONN" and paste the URL there. Click on "Deploy Web Service"</p>
+
+    <img src="./assets/step-5.png" width="60%" height="50%" />
+
+    <p><strong>Step 6</strong>: Just wait the platform build your application. If everything went well then you should be able to click on the link provided to visualize your app running.</p>
+
+    <img src="./assets/step-6.png" width="60%" height="50%" />
+
+    <p><strong>Step 7</strong>: Congratulations! You have just deployed your first web service!</p>
+
+    <img src="./assets/step-7.png" width="60%" height="50%" />
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+
+</html>
